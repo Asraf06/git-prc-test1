@@ -5,13 +5,13 @@ C  - Commited or Changed
 M - Modified
 
 # change remote name
-<h2>git remote rename origi origin</h2>
+<p><code>git remote rename origi origin</code></p>
 
 # check remote name
-<h2><code>git remote -v</code></h2>
+<p><code>git remote -v</code></p>
 
 # remove remote
-<h2>git remote remove origin</h2>
+<p><code>git remote remove origin</code></p>
 
 # change remote url
-<h2>git remote set-url origin https://github.com/username/repo.git</h2>
+<p><code>git remote set-url origin https://github.com/username/repo.git</code></p>
