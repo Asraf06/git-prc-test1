@@ -36,6 +36,11 @@ M - Modified
 # create new branch
 <p><code>git branch -m new_branch</code></p>
 
+# switch branch
+<p><code>git checkout name</code></p>
+
+# switch branch with files in local computer
+<p><code>git switch new_branch</code></p>
 
 #  add remote
 <p><code>git remote add origin https://github.com/username/repo.git</code></p>
