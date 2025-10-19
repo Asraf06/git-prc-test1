@@ -26,7 +26,14 @@ M - Modified
 <p><code>git reset --hard e4f5g6h</code></p>
 
 <h1>Branch</h1>
-#  create branch
+
+# create branch
+<p><code>git branch name</code></p>
+
+# show branch
+<p><code>git branch</code></p>
+
+# create new branch
 <p><code>git branch -m new_branch</code></p>
 
 
