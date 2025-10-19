@@ -17,9 +17,18 @@ M - Modified
 
 # see commit history
 <p><code>git reflog</code></p>
+<p><code>git log --oneline</code></p>
+
+# All history
+<p><code>git log</code></p>
 
 # get back to lost commit by hash code
 <p><code>git reset --hard e4f5g6h</code></p>
+
+<h1>Branch</h1>
+#  create branch
+<p><code>git branch -m new_branch</code></p>
+
 
 #  add remote
 <p><code>git remote add origin https://github.com/username/repo.git</code></p>
@@ -36,3 +45,4 @@ M - Modified
 
 # change remote url
 <p><code>git remote set-url origin https://github.com/username/repo.git</code></p>
+
