@@ -7,18 +7,19 @@ M - Modified
 <h1>Commit</h1>
 # commit status
 <p><code>git status</code></p>
+<p><code>git status -s</code></p>
 
 #  check commit
 <p><code>git log --oneline</code></p>
 
 # remove last commit
-git reset --hard HEAD~1
+<p><code>git reset --hard HEAD~1</code></p>
 
 # see commit history
-git reflog
+<p><code>git reflog</code></p>
 
 # get back to lost commit by hash code
-git reset --hard e4f5g6h
+<p><code>git reset --hard e4f5g6h</code></p>
 
 #  add remote
 <p><code>git remote add origin https://github.com/username/repo.git</code></p>
