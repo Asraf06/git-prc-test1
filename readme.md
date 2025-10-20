@@ -53,7 +53,10 @@ M - Modified
 <p><code>git remote -v</code></p>
 
 <h3>remove remote</h3>
-<p><code>git remote remove origin</code></p>
+```bash
+git remote remove origin
+```
+
 
 <h3>change remote url</h3>
 <p><code>git remote set-url origin https://github.com/username/repo.git</code></p>
