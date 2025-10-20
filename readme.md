@@ -50,7 +50,7 @@ M - Modified
 
 
 <h3>check remote name</h3>
-<p><code id="cmd">git remote -v</code></p>
+<pre><code id="cmd">git remote -v</code></pre>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)">Copy</button>
 
 <h3>remove remote</h3>
