@@ -60,6 +60,10 @@ M - Modified
 <pre><code>git merge origin/new_branch</code></pre>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
 
+<h3>Delete branch</h3>
+<pre><code>git branch -d branch_name</code></pre>
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
+
 <h1>Remote</h1>
 <h3> add remote</h3>
 <pre><code>git remote add origin https://github.com/username/repo.git</code></pre>
