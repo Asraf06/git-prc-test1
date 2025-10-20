@@ -74,6 +74,9 @@ M - Modified
 <p>Now you can switch branch. And see your code. Now to get back your main branch. And run this command to get back the hidden line.</p>
 <pre><code>git stash apply</code></pre>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
+<p>To delete saved line use this code.</p>
+<pre><code>git stash clear</code></pre>
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
 
 <h1>Remote</h1>
 <h3> add remote</h3>
