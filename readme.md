@@ -79,8 +79,14 @@ M - Modified
 <h3>Switch branch without commit</h3>
 <p>Git will not give you permision to change branch without commit new line. So first you need to hide new line code.</p>
 <pre><code>git stash</code></pre>
+<p>Save stash with name.</p>
+<pre><code>git stash save "stash_name"</code></pre>
+<p>lookup stash list.</p>
+<pre><code>git stash list</code></pre>
 <p>Now you can switch branch. And see your code. Now to get back your main branch. And run this command to get back the hidden line.</p>
 <pre><code>git stash apply</code></pre>
+<p>Apply with stash numebr.</p>
+<pre><code>git stash apply stash@{0}</code></pre>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
 <p>To delete saved line use this code.</p>
 <pre><code>git stash clear</code></pre>
