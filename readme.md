@@ -60,8 +60,9 @@ M - Modified
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
 
 <h3>Merge branch</h3>
-<p>Make sure you switch to main branch first</p>
-<pre><code>git merge origin/new_branch</code></pre>
+<p>Make sure you switch to main branch first.</p>
+<pre><code>git merge new_branch</code></pre>
+<p>After merge push the code to github.</p>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
 
 <h3>Delete branch</h3>
