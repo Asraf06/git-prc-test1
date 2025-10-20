@@ -68,6 +68,13 @@ M - Modified
 <pre><code>git branch -d branch_name</code></pre>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
 
+<h3>Switch branch without commit</h3>
+<p>Git will not give you permision to change branch without commit new line. So first you need to hide new line code.</p>
+<pre><code>git stash</code></pre>
+<p>Now you can switch branch. And see your code. Now to get back your main branch. And run this command to get back the hidden line.</p>
+<pre><code>git stash apply</code></pre>
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
+
 <h1>Remote</h1>
 <h3> add remote</h3>
 <pre><code>git remote add origin https://github.com/username/repo.git</code></pre>
