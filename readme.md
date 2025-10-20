@@ -53,9 +53,8 @@ M - Modified
 <p><code>git remote -v</code></p>
 
 <h3>remove remote</h3>
-```bash
-git remote remove origin
-```
+<pre><code id="cmd">git remote remove origin</code></pre>
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)">Copy</button>
 
 
 <h3>change remote url</h3>
