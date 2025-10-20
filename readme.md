@@ -55,6 +55,10 @@ M - Modified
 <pre><code>git switch new_branch</code></pre>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
 
+<h3>Create branch with switch branch</h3>
+<pre><code>git switch -C new_branch</code></pre>
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
+
 <h3>Merge branch</h3>
 <p>Make sure you switch to main branch first</p>
 <pre><code>git merge origin/new_branch</code></pre>
