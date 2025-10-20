@@ -68,7 +68,7 @@ M - Modified
 <h3>Delete branch</h3>
 <p>Get the latest changes from the remote repository and immediately merge them into my current branch.</p>
 <pre><code>git pull</code></pre>
-or use
+<p>or use</p>
 <pre><code>git pull origin main</code></pre>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
 
