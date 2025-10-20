@@ -5,56 +5,58 @@ C  - Commited or Changed
 M - Modified
 
 <h1>Commit</h1>
-# commit status
+<h3>commit status</h3>
 <p><code>git status</code></p>
 <p><code>git status -s</code></p>
 
-#  check commit
+<h3> check commit</h3>
 <p><code>git log --oneline</code></p>
 
-# remove last commit
+<h3>remove last commit</h3>
 <p><code>git reset --hard HEAD~1</code></p>
 
-# see commit history
+<h3>see commit history</h3>
 <p><code>git reflog</code></p>
 <p><code>git log --oneline</code></p>
 
-# All history
+<h3>All history</h3>
 <p><code>git log</code></p>
 
-# get back to lost commit by hash code
+<h3>get back to lost commit by hash code</h3>
 <p><code>git reset --hard e4f5g6h</code></p>
 
 <h1>Branch</h1>
 
-# create branch
+<h3>create branch</h3>
 <p><code>git branch name</code></p>
 
-# show branch
+<h3>show branch</h3>
 <p><code>git branch</code></p>
 
-# create new branch
+<h3>create new branch</h3>
 <p><code>git branch -m new_branch</code></p>
 
-# switch branch
+<h3>switch branch</h3>
 <p><code>git checkout name</code></p>
 
-# switch branch with files in local computer
+<h3>switch branch with files in local computer</h3>
 <p><code>git switch new_branch</code></p>
 
-#  add remote
+<h3> add remote</h3>
 <p><code>git remote add origin https://github.com/username/repo.git</code></p>
 
-# change remote name
+<h3>change remote name</h3>
 <p><code>git remote rename origi origin</code></p>
 
 
-# check remote name
+<h3>check remote name</h3>
 <p><code>git remote -v</code></p>
 
-# remove remote
+<h3>remove remote</h3>
 <p><code>git remote remove origin</code></p>
 
-# change remote url
+<h3>change remote url</h3>
 <p><code>git remote set-url origin https://github.com/username/repo.git</code></p>
+
+
 
