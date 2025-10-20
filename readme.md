@@ -65,7 +65,7 @@ M - Modified
 <p>After merge push the code to github.</p>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
 
-<h3>Delete branch</h3>
+<h3>Pull code from branch</h3>
 <p>Get the latest changes from the remote repository and immediately merge them into my current branch.</p>
 <pre><code>git pull</code></pre>
 <p>or use</p>
