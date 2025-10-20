@@ -50,12 +50,12 @@ M - Modified
 
 
 <h3>check remote name</h3>
-<p><code>git remote -v</code></p>
+<p><code id="cmd">git remote -v</code></p>
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)">Copy</button>
 
 <h3>remove remote</h3>
 <pre><code id="cmd">git remote remove origin</code></pre>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)">Copy</button>
-
 
 <h3>change remote url</h3>
 <p><code>git remote set-url origin https://github.com/username/repo.git</code></p>
