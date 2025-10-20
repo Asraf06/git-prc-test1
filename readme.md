@@ -78,6 +78,11 @@ M - Modified
 <pre><code>git stash clear</code></pre>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
 
+<h3>Fetch branch</h3>
+<p>git fetch is a safe command that downloads new data (commits, branches, tags) from a remote repository — without changing your local code.</p>
+<pre><code>git fetch</code></pre>
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
+
 <h1>Remote</h1>
 <h3> add remote</h3>
 <pre><code>git remote add origin https://github.com/username/repo.git</code></pre>
