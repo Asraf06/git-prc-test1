@@ -55,6 +55,12 @@ M - Modified
 <pre><code>git switch new_branch</code></pre>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
 
+<h3>Merge branch</h3>
+<p>Make sure you switch to main branch first</p>
+<pre><code>git merge origin/new_branch</code></pre>
+<button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
+
+<h1>Remote</h1>
 <h3> add remote</h3>
 <pre><code>git remote add origin https://github.com/username/repo.git</code></pre>
 <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)"></button>
